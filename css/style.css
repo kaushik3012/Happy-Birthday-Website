@@ -1,0 +1,124 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  font-family: 'Akaya Telivigala', cursive;
+  background: url("../images/bg.jpg");
+  background-size: 100%;
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+} 
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 750px;
+  margin: 75px auto 0 auto;
+}
+
+.container section:nth-child(2n) {
+  background:url("../images/bubble-bg.png");
+}
+
+.container section:nth-child(odd) {
+  background: pink;
+}
+
+
+section.pikaimg {
+  line-height: 0;
+  border-radius: 5% 5% 0 0;
+}
+
+section.pikaimg img {
+  border-radius: 5% 5% 0 0 ;
+  width: 100%;
+}
+
+section.intro {
+  text-align: center;
+  padding: 50px;
+}
+
+section.intro img {
+  float: right;
+  margin-bottom: 32px;
+}
+
+section.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+section.contact img {
+  float: left;
+}
+section.map {
+  line-height: 0;
+}
+
+
+section.footer p{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}

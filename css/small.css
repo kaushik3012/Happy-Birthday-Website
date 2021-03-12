@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section.pikaimg img {
+    border-radius: 0;
+}
+
+section.intro img {
+    text-align: center;
+    float: inherit;
+}
+
+section.contact img {
+    text-align: center;
+    float: inherit;
+}
+iframe {
+    height: 100%;
+}
